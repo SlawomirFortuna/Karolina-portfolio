@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  background: black;
+  color: white;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+footer .kontakt {
+  display: flex;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+footer a:hover {
+  text-decoration: none;
+  list-style-type: none;
+  overflow: hidden;
+  color: rgba(18, 84, 190, 1);
+  background: white;
+  border-radius: 0.5rem;
+}
+
+.email {
+  margin-left: 2rem;
+}
+
+@media (max-width: 600px) {
+  footer .kontakt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email {
+    margin-left: 0;
+    padding-top: 1rem;
+  }
+}
